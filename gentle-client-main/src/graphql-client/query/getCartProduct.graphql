@@ -1,0 +1,15 @@
+query GetCartProduct($localBillProducts:[BillProductInput!]!){
+  getCartProduct(localBillProducts:$localBillProducts){
+    code
+    success
+    message
+    products{
+      productName
+      productType
+      productPrice
+      productAmount
+      productThumbnail
+      priceIdForLocal
+    }
+  }
+}

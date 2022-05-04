@@ -1,0 +1,23 @@
+query GetUserMoneyHistory{
+  getUserMoneyHistory{
+    code
+    success
+    message
+    moneyBonuses{
+      moneyNumber
+      description
+      type
+      createdAt
+    }
+    takeMoneyFields{
+      id
+      accoutName
+      accountNumber
+      accountBankName
+      cancelReason
+      money
+      isSuccess
+       createdAt
+    }
+  }
+}

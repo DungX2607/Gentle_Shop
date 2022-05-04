@@ -1,0 +1,7 @@
+mutation ChangeIsHidden($value:Boolean!){
+    changeIsHidden(value:$value){
+        code
+        success
+        message
+    }
+}

@@ -1,0 +1,13 @@
+query GetBrands($kindId:Float!){
+    getBrands(kindId:$kindId){
+        code
+        success
+        message
+        brands{
+            id
+            brandName
+            thumbnail
+        }
+      
+    }
+}

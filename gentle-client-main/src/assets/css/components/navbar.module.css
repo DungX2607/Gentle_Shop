@@ -1,0 +1,314 @@
+.container {
+  z-index: 10;
+  background-color: white;
+  width: 100%;
+  top: 0;
+  background-color: var(--blur-color);
+ 
+}
+.navbar {
+ 
+  border-bottom: 1px solid var(--blur-color);
+  padding: 20px 8px ;
+}
+.appName {
+  height: 100%;
+  width: 100%;
+  font-size: 2rem;
+  font-family: 'Fredericka the Great', cursive;
+  color: black;
+  cursor: pointer;
+}
+.navbarCategory {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.navbarCategoryItem {
+  font-family: "Oswald";
+  text-align: center;
+  cursor: pointer;
+
+  text-transform: uppercase;
+  transition: all 0.25s ease-in;
+}
+.navbarCategoryItem:hover {
+  transform: translateY(-4px);
+}
+
+.categorySelect {
+  position: relative;
+}
+.categorySelect:before {
+  position: absolute;
+  display: block;
+
+  content: "";
+  width: 110%;
+  height: 20px;
+  top: 100%;
+  right: 0;
+}
+
+.categorySelect:hover .categoryList {
+  opacity: 1;
+  display: block;
+}
+
+.categoryList {
+  z-index: 100;
+  background-color: white;
+  font-family: "Oswald", Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+  font-weight: 100;
+  width: 980px;
+  border-radius: 4px;
+  position: absolute;
+  top: 140%;
+  left: -247%;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+
+  transition: all 0.5s;
+
+  display: none;
+
+  transform-origin: top 90%;
+}
+.brandBg {
+  padding: 20px;
+  background-color: #faf9f9;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+.brandsFilter {
+  padding: 20px 20px 10px;
+  font-size: 0.9rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-bottom: 12px;
+}
+
+.brandFilterItem {
+  font-weight: 400;
+  cursor: pointer;
+  border: 1px solid var(--blur-color);
+  text-align: center;
+  padding: 2px 8px;
+  margin: 0 4px;
+  font-family: "Oswald";
+}
+.brandFilterItem:hover {
+  border: 1px solid black;
+}
+.brandFilterActived {
+  border: 1px solid black;
+}
+.noBrandsQuery {
+  text-align: center;
+  font-family: "Oswald";
+  color: var(--footer-bg-color);
+  width: 100%;
+}
+
+.categoryItem {
+  font-family: "Oswald";
+  text-transform: uppercase;
+  padding: 4px;
+  font-size: 0.9rem;
+  font-weight: 400;
+  cursor: pointer;
+  color: black;
+}
+
+.categoryItem:hover {
+  text-decoration: underline;
+}
+/* UserControl */
+.userControl {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: flex-end;
+}
+.userControlMobile {
+  width: 100%;
+
+  position: relative;
+  
+}
+
+.cartAndUserControl {
+  margin-right: 4px;
+  height: 100%;
+  display: flex;
+ align-items: center;
+  justify-content: flex-end;
+}
+
+.userControlIconContainer {
+  padding: 4px;
+  border-radius: 4px;
+}
+.userControlIconContainer img {
+  border: 2px solid white;
+  text-align: end;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+/* Cart */
+.cartShopping {
+  margin-right: 20px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  text-align: center;
+  position: relative;
+}
+
+
+.numberCountCartItem {
+  cursor: pointer;
+  font-size: 0.8rem;
+
+  color: white;
+  position: absolute;
+  width: 20px;
+  text-align: center;
+  height: 20px;
+  border-radius: 50%;
+  background-color: red;
+  top: -33%;
+  right: -70%;
+}
+.cartDetail {
+  transition: all 0.5s;
+  transform: scale(0) translateY(100%);
+  transform-origin: top right;
+  border: 3px solid black;
+  right: 10%;
+  position: absolute;
+  top: 132%;
+  min-width: 600%;
+  max-height: 500px;
+}
+.cartDetail::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -16px;
+  width: 13%;
+  right: -4px;
+
+  height: 20px;
+}
+.cartDetail h1 {
+  margin-left: 12%;
+  user-select: none;
+  padding: 12px 0;
+  color: white;
+}
+.header {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 12px;
+}
+.cartDetailHeaderIcon {
+  font-size: 1rem;
+  color: white;
+}
+
+.footer {
+  border-top: 2px solid black;
+
+  padding: 8px 8px;
+}
+.footer h4 {
+  width: 100%;
+  text-align: end;
+  font-size: 1rem;
+  color: black;
+}
+.btnPayment {
+  background-color: var(--background);
+  margin: 24px 0 12px 0;
+}
+.btnPayment button {
+  width: 100%;
+}
+
+/* Navbar Menu */
+.modalBrands {
+  padding: 0 !important;
+  
+}
+.navbarMenuItem {
+  cursor: pointer;
+  font-size: 0.9rem;
+  padding: 12px;
+  background-color: var(--blur-color);
+  border-bottom: 2px solid white;
+  position: relative;
+  text-transform: uppercase;
+  transition: opacity ease 0.2s;
+}
+.navbarMenuBrandText {
+  display: flex;
+  align-items: center;
+}
+
+.navbarMenuItem:hover {
+  opacity: 0.6;
+}
+/* event */
+
+/* Scroll Custom */
+.body::-webkit-scrollbar-track {
+  border: 1px solid black;
+  background-color: #f5f5f5;
+}
+
+.body::-webkit-scrollbar {
+  width: 10px;
+  background-color: #f5f5f5;
+}
+
+.body::-webkit-scrollbar-thumb {
+  background-color: #000000;
+}
+
+/* Dropdown */
+.dropdownText {
+}
+.dropdownText:hover + .kindContainer {
+}
+.dropdownMenu {
+  position: relative;
+}
+
+/* .dropdownText::before {
+  content: "";
+  position: absolute;
+
+  height: 40px;
+  background-color: red;
+  top: 79%;
+  right: 16.5%;
+} */
+.dropdownItem {
+  text-transform: uppercase;
+  padding: 2px;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+.dropdownItem:hover {
+  text-decoration: underline;
+}

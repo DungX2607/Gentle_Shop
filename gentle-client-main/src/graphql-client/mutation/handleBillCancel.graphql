@@ -1,0 +1,7 @@
+mutation HandleBillCancel($billId:Float!,$reason:String!){
+    handleBillCancel(billId:$billId,reason:$reason){
+        code
+        success
+        message
+    }
+}

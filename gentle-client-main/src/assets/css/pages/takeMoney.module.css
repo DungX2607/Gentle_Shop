@@ -1,0 +1,91 @@
+.takeMoneyContainer{
+    margin: 8px 8px 0;
+}
+.heading{
+    border: 1px solid var(--border-color);
+    padding: 12px;
+    font-size: 1.4rem;
+    text-align: center;
+    margin: 12px 8px 0;
+}
+.body{
+    padding: 12px;
+    
+    border: 1px solid var(--border-color);
+}
+.input{
+    margin: 8px 0;
+   
+}
+.input:focus{
+    
+    box-shadow: none !important;
+}
+.select{
+    margin: 8px 0;
+    border: 1px solid var(--border-color)!important;
+}
+
+
+.notice{
+    color: red;
+
+}
+/* UserInfo */
+.userInfoContainer{
+    margin: 12px 8px 40px;
+} 
+.userInfo{
+    border: 1px solid var(--border-color);
+display: flex;
+flex-direction: column;
+align-items: center;
+
+padding: 12px 0;
+}
+
+.userInfo img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border: 5px solid var(--blur-color);
+}
+.userName{
+    font-size: 1.2rem;
+}
+.moneyInfo{
+    margin-top: 8px;
+    padding: 16px;
+    border: 1px solid var(--border-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.moneyNumber{
+    color: green;
+    font-size: 1rem;
+    font-family: "Oswald";
+    margin-left: 8px;
+}
+/* button */
+.btnContainer{
+    display: flex;
+    align-items: center;
+    margin: 20px 8px 0;
+    justify-content: space-between;
+    
+}
+
+.moneyInput {
+    margin-top: 6px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btnWidth{
+    padding:6px 16px;
+}
+
+
+

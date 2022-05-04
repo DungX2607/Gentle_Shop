@@ -1,0 +1,7 @@
+mutation AdminCreateBrand($brandInput:BrandInput!){
+    adminCreateBrand(brandInput:$brandInput){
+        code
+        success
+        message
+    }
+} 

@@ -1,0 +1,53 @@
+.container {
+  padding: 12px;
+  border: 1px solid var(--border-color);
+  margin: 0 8px;
+}
+.input {
+  margin: 12px 0;
+}
+.inputContainer {
+  margin-bottom: 12px;
+  display: flex;
+  justify-content: space-between;
+}
+.priceItem {
+}
+.inputPrice {
+  max-width: 20%;
+}
+.buttonContainer {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.namePriceHeader {
+  display: flex;
+  justify-content: space-between;
+}
+.productDescription {
+  margin-top: 20px;
+}
+.productDescription h2 {
+  font-size: 1.2rem;
+  text-align: center;
+}
+.btnConfirm{
+    margin-top: 40px;
+    text-align: center;
+}
+.headingProductKindAndClass{
+  font-size: 3rem;
+  text-align: center;
+  color: green;
+}
+.containerProductKindAndClass{
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  margin-top: 20%;
+}
+.containerProductKindAndClass input{
+  margin: 40px 0;
+}

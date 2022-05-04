@@ -1,0 +1,205 @@
+p {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+ {
+  font-family: "Oswald", Arial, Helvetica, sans-serif;
+}
+/* Css ALl */
+* {
+  box-sizing: inherit;
+}
+html {
+  height: 100%;
+  line-height: 1.6rem;
+  box-sizing: border-box;
+  margin-top: 0;
+}
+body{
+  height: 100%;
+}
+/* Variables */
+:root {
+ --grey-color:rgb(173, 173, 173);
+  --blur-color: #f2f2f2;
+  --blur-color-rgba:rgba(242,242,242,0.5);
+  --search-bg:#313131;
+  --border-color:#EBEBEB;
+  --text-color:rgb(39, 39, 39);
+  --facebook-bg:#3B5998;
+  --google-bg:#dd4b39;
+  --admin-bg-item:rgb(240, 239, 239);
+  --footer-text-color:#a3a3a3;
+  --brand-text-color:#495061;
+  --green-bg:rgb(188, 248, 206);
+}
+.mainContainer {
+  background-color: var(--background);
+}
+/* Button */
+.btnBlackBorder{
+  text-align: center;
+    padding: 4px 8px;
+    border: 2px solid black;
+    font-size: 1rem;
+    font-weight: 400;
+  
+    font-family: "Oswald", Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    transition: all 0.5s;
+    position: relative;
+    z-index: 1;
+}
+
+/* Btn */
+.btn{
+  cursor: pointer;
+  position: relative;
+  display: block;
+  color: black;
+  font-size: 1rem;
+  text-decoration: none;
+  font-family: "Oswald";
+  border: 2px solid black;
+  padding: 4px 8px;
+  text-transform: uppercase;
+  overflow: hidden;
+z-index: 1;
+  transition: 0.4s all ease;
+  text-align: center;
+}
+.btn::before{
+  background: black;
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: -1;
+  transition: all 0.4s ease;
+}
+.btn4::before{
+  width: 100%;
+  height: 0%;
+  transform: translate(-50%,-50%) rotate(-45deg);
+}
+.btn:hover{
+  color: white;
+}
+.btn4:hover::before{
+  height: 300%;
+ 
+}
+/* green */
+.btnGreen{
+  cursor: pointer;
+  position: relative;
+  display: block;
+  color: green;
+  font-size: 1rem;
+  text-decoration: none;
+  font-family: "Oswald";
+  border: 2px solid green;
+  padding: 4px 8px;
+  text-transform: uppercase;
+  overflow: hidden;
+z-index: 1;
+  transition: 0.4s all ease;
+  text-align: center;
+}
+.btnGreen::before{
+  background: green;
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: -1;
+  transition: all 0.4s ease;
+}
+.btnGreen:hover{
+  color: white;
+}
+.btnGreen4::before{
+  width: 100%;
+  height: 0%;
+  transform: translate(-50%,-50%) rotate(-45deg);
+}
+.btnGreen4:hover::before{
+  height: 300%;
+ 
+}
+
+
+
+
+
+
+
+
+.noneBorder{
+  border-radius: 0px !important;
+  box-shadow: none !important;
+}
+
+
+
+
+
+
+
+
+
+/* Search */
+
+/* Distance from Navbar */
+.distance{
+
+  background-color: #FCFCFC;
+  margin-top: 10px;
+  padding-bottom: 120px;
+}
+/* No Box-shadow */
+.boxShadowNone:focus{
+  box-shadow: none !important;
+}
+
+/* Select */
+.select_custom{
+  border: 1px solid var(--border-color);
+  padding: 4px 20px;
+  outline: none;
+}
+
+
+/* admin */
+.adminControl{
+  text-align:center;
+  position: fixed;
+  bottom: 10%;
+  right: 10%;
+}
+
+
+
+.brandName{
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+  letter-spacing: 3px;
+  background-color: black;
+  font-family: 'Roboto',sans-serif;
+  color: white;
+  font-size: 1.6rem;
+  padding: 4px ;
+
+  margin:  10px 8px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+
+

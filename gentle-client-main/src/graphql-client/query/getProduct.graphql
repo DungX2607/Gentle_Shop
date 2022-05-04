@@ -1,0 +1,48 @@
+query GetProduct($productId: ID!) {
+  getProduct(productId: $productId) {
+    code
+    message
+    success
+    product {
+      id
+      thumbnail
+      productName
+      imgDescription
+      imageList
+      description
+      priceToDisplay
+      kind {
+        id
+        name
+      }
+      prices {
+        id
+        type
+        price
+        status
+      }
+      brand {
+        id
+        brandName
+      }
+      comments {
+        user {
+          userName
+          userAvatar
+        }
+        content
+        rating
+        imagesComment
+        createdAt
+        feedbacks {
+          admin {
+            adminName
+            avatar
+          }
+          content
+          createdAt
+        }
+      }
+    }
+  }
+}

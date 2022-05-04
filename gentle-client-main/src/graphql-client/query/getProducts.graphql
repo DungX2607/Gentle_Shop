@@ -1,0 +1,25 @@
+query GetProducts($paginationOptions: PaginationOptionsInput!) {
+  getProducts(paginationOptions: $paginationOptions) {
+    code
+    success
+    message
+     totalCount
+    pageSize
+    products {
+      id
+      productName
+      averageRating
+      sales
+      thumbnail
+      priceToDisplay
+      imgDescription
+       commentCount
+       prices{
+         id
+         type
+         price
+          status
+       }
+    }
+  }
+}

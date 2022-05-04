@@ -1,0 +1,19 @@
+query AdminGetCommentsNoFeedback{
+  adminGetCommentsNoFeedback{
+    code
+    success
+    message
+    comments{
+      id
+      content
+      user{
+        userAvatar
+        userName
+      }
+      product{
+        productName
+        priceToDisplay
+      }
+    }
+  }
+}

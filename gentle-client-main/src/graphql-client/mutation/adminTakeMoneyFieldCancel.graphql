@@ -1,0 +1,7 @@
+mutation AdminTakeMoneyFieldCancel($fieldId:Float!,$cancelReason:String!){
+    adminTakeMoneyFieldCancel(fieldId:$fieldId,cancelReason:$cancelReason){
+        code
+        success
+        message
+    }
+}

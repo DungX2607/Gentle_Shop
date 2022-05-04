@@ -1,0 +1,19 @@
+query GetGifts($priceCondition:Float!){
+  getGifts(priceCondition:$priceCondition){
+    code
+    success
+    message
+    gifts{
+      price
+      type
+      status
+      isGift
+      product{
+      thumbnail
+        productName
+        priceToDisplay
+        sales
+      }
+    }
+  }
+}

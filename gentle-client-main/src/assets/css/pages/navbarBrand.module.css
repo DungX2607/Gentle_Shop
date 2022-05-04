@@ -1,0 +1,87 @@
+.brandBg {
+    padding: 20px;
+    background-color: #faf9f9;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    margin-top: 8px;
+  }
+  .barIcon{
+    margin-left: 8px;
+    cursor: pointer;
+  }
+
+  .brandsFilter{
+    padding: 10px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    overflow-x: auto;
+  }
+
+  .brandFilterItem {
+    font-weight: 400;
+    cursor: pointer;
+    border: 1px solid var(--blur-color);
+    text-align: center;
+    padding: 2px 8px;
+    margin: 8px 4px;
+   
+    font-family: "Oswald";
+  }
+  .brandFilterItem:hover {
+    border: 1px solid black;
+  }
+  .brandFilterActived {
+    border: 1px solid black;
+  }
+  .noBrandsQuery {
+    text-align: center;
+    font-family: "Oswald";
+    color: var(--footer-bg-color);
+    width: 100%;
+  }
+  
+  .categoryItem {
+    font-family: "Oswald";
+    text-transform: uppercase;
+    padding: 4px;
+    
+    font-size: 0.9rem;
+    font-weight: 400;
+    cursor: pointer;
+    color: black;
+  }
+  
+  .categoryItem:hover {
+    text-decoration: underline;
+  }
+
+ 
+  .brandResult{
+   
+  }
+
+  /* Navbar Menu */
+.modalBrands {
+  padding: 0 !important;
+  
+}
+.navbarMenuItem {
+  cursor: pointer;
+  font-size: 0.9rem;
+  padding: 12px;
+  background-color: var(--blur-color);
+  border-bottom: 2px solid white;
+  position: relative;
+  text-transform: uppercase;
+  transition: opacity ease 0.2s;
+}
+.navbarMenuBrandText {
+  display: flex;
+  align-items: center;
+}
+
+.navbarMenuItem:hover {
+  opacity: 0.6;
+}

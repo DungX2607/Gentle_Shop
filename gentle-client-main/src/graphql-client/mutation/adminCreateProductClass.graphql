@@ -1,0 +1,7 @@
+mutation AdminCreateProductClass($name:String!,$id:Float!){
+  adminCreateProductClass(name:$name,id:$id){
+    code
+    success
+    message
+  }
+}

@@ -1,0 +1,23 @@
+query GetProductsForIndex($take: Float!) {
+  getProductsForIndex(take: $take) {
+    code
+    success
+    message
+    kinds {
+      id
+      name
+      products {
+        id
+        productName
+        averageRating
+        sales
+        thumbnail
+        priceToDisplay
+        commentCount
+        class {
+          name
+        }
+      }
+    }
+  }
+}

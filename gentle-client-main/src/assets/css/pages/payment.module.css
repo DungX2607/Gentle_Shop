@@ -1,0 +1,238 @@
+.paymentContainer {
+  margin-bottom: 100px;
+}
+.paymentContainer h1 {
+  font-size: 2rem;
+  text-align: center;
+}
+.paymentContainer h2 {
+  font-size: 1.2rem;
+}
+.userInfo {
+  margin: 8px;
+  padding: 20px;
+  border: 1px solid var(--border-color);
+}
+.userInfo h2 {
+}
+.userInfo p{
+
+}
+.login{
+    font-family: "Oswald";
+    font-size: 1rem;
+    color: green;
+    margin-left: 8px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.userInfo input {
+  font-family: "Roboto";
+  width: 100%;
+  margin: 12px 0;
+  border-radius: 2px;
+  border: 1px solid var(--border-color);
+}
+.userInfo select {
+  font-family: "Roboto";
+  margin: 12px 0;
+  max-width: 100%;
+  border-radius: 2px;
+  border: 1px solid var(--border-color);
+}
+.userInfo textarea {
+  font-family: "Roboto";
+  margin: 12px 0;
+  border-radius: 2px;
+  border: 1px solid var(--border-color);
+}
+/* Order */
+.orderContainer {
+}
+.orderInfo {
+  margin: 8px;
+
+  border: 1px solid var(--border-color);
+}
+.productInfo {
+  display: flex;
+}
+.orderInfo h2 {
+  padding: 12px 20px;
+  border-bottom: 1px solid var(--border-color);
+}
+.productItem {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  border: 1px dotted var(--border-color);
+}
+
+.productInfo img {
+  height: 80px;
+  width: 80px;
+}
+.productNameAndType {
+  max-width: 50%;
+}
+.productNameAndType p {
+  font-size: 0.9rem;
+  color: var(--grey-color);
+}
+.productPrice{
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+ flex: 1;
+}
+.discountContainer {
+  padding: 0 20px 20px;
+  margin-top: 20px;
+  border-bottom: 1px solid var(--border-color);
+}
+.discountContainer input {
+  margin-right: 20px;
+  border: 1px solid var(--border-color);
+}
+.discountContainer button {
+  
+  border-radius: 4px;
+  width: 32%;
+}
+.totalPriceContainer {
+  padding: 20px;
+}
+.totalPriceContainer p {
+  font-size: 0.9rem;
+}
+.totalPriceItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+.itemName {
+  color: var(--grey-color);
+}
+.totalPriceItemLastChild {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--border-color);
+}
+.total {
+  margin-top: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.total h3 {
+  color: green;
+  font-size: 1.2rem;
+}
+/* Type payment */
+.typePaymentContainer{
+  margin: 28px 8px 12px;
+  
+}
+.typePaymentHeading{
+  border: 1px solid var(--border-color);
+  padding: 12px 20px;
+  font-size: 1.2rem;
+}
+.typePaymentBody{
+  border: 1px solid var(--border-color);
+  
+  border-top: none;
+}
+
+.typePaymentItem:first-child{
+  border-top: none;
+}
+.typePaymentItem{
+  font-size: 1.1rem;
+  padding:  20px;
+  border-top:1px solid var(--border-color) ;
+}
+.typePaymentItem.disabled{
+  opacity: 0.6;
+  background-color: var(--blur-color);
+  
+}
+.typePaymentInput{
+  margin-right: 8px;
+}
+
+
+.typePaymentNotice{
+  font-size: 0.9rem;
+  color: var(--grey-color);
+  margin-left: 24px;
+}
+.infoBank{
+  background-color: var(--blur-color);
+  padding: 20px 20px 8px;
+  border: 1px solid var(--border-color);
+}
+
+.infoBank p{
+  font-size: 0.9rem;
+  margin: 6px 0;
+}
+.thanksClient{
+  text-align: center;
+  font-size: 1rem;
+}
+
+/* Button */
+.orderButtonControl{
+    padding: 20px 12px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.backToCartContainer{
+    height: 100%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding: 4px 16px;
+    
+    transition: all 0.3s;
+}
+.backToCartContainer:hover{
+    background-color: var(--blur-color);
+    transform: translateX(-5px);
+}
+.backToCartContainer p{
+   font-size: 1rem;
+   margin-left: 4px;
+}
+
+.orderButtonControl button{
+    width: 32%;
+}
+.errorDisplay{
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: red;
+  
+  font-family: "Roboto";
+  text-transform:uppercase ;
+}
+.successDisplay{
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: green;
+  
+  font-family: "Roboto";
+  text-transform:uppercase ;
+}

@@ -1,0 +1,14 @@
+query GetPaginationUsers($skip:Float!){
+  getPaginationUsers(skip:$skip){
+    code
+    success
+    message
+    totalCount
+    hasMore
+    cursor
+    users{
+      userName
+      userAvatar
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "codegen": "graphql-codegen --config codegen.yml"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.5.10",
+    "@chakra-ui/icons": "^1.1.7",
+    "@chakra-ui/react": "^1.4.2",
+    "@chakra-ui/theme-tools": "1.1.2",
+    "@emotion/react": "11.1.5",
+    "@emotion/styled": "11.1.5",
+    "@graphql-codegen/cli": "^2.6.2",
+    "@reduxjs/toolkit": "^1.8.1",
+    "apollo-link-error": "^1.1.13",
+    "axios": "^0.26.1",
+    "classnames": "^2.3.1",
+    "clsx": "^1.1.1",
+    "firebase": "^9.6.10",
+    "framer-motion": "^4.0.3",
+    "graphql": "^16.3.0",
+    "i": "^0.3.7",
+    "jwt-decode": "^3.1.2",
+    "next": "latest",
+    "npm": "^8.7.0",
+    "nuka-carousel": "^5.0.12",
+    "react": "^17.0.2",
+    "react-device-detect": "^2.2.2",
+    "react-dom": "^17.0.2",
+    "react-infinite-scroll-component": "^6.1.0",
+    "react-redux": "^7.2.8",
+    "react-spring": "^9.4.4",
+    "react-star-ratings": "^2.3.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@fortawesome/free-brands-svg-icons": "^6.1.1",
+    "@fortawesome/free-regular-svg-icons": "^6.1.1",
+    "@fortawesome/free-solid-svg-icons": "^6.1.1",
+    "@fortawesome/react-fontawesome": "^0.1.18",
+    "@graphql-codegen/cli": "2.6.2",
+    "@graphql-codegen/introspection": "2.1.1",
+    "@graphql-codegen/typescript": "2.4.8",
+    "@graphql-codegen/typescript-operations": "2.3.5",
+    "@graphql-codegen/typescript-react-apollo": "3.2.11",
+    "@types/node": "^14.6.0",
+    "@types/react": "^17.0.3",
+    "@types/react-dom": "^17.0.3",
+    "@types/react-slick": "^0.23.8",
+    "@types/react-star-ratings": "^2.3.0",
+    "@types/uuid": "^8.3.4",
+    "typescript": "4.3.2"
+  }
+  
+}

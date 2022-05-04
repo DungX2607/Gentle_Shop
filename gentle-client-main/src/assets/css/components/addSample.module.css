@@ -1,0 +1,33 @@
+.textChangeProduct{
+    cursor: pointer;
+    color: green;
+    text-decoration: underline;
+    text-align: end;
+}
+.productList{
+    
+}
+.productName{
+    font-size: 1.2rem;
+    padding: 12px 0;
+    border-bottom: 2px solid black;
+}
+.productItem{
+    margin: 20px 0 0;
+    padding: 12px;
+    border: 1px dotted var(--border-color);
+    text-align: center;
+}
+.btnComfirm{
+    margin-top: 16px;
+    border-radius: 2px !important ;
+}
+.loadMoreContainer{
+    position: fixed;
+    bottom: 12%;
+    right: 50%;
+    transform: translateX(50%);
+}
+.btnComfirm:focus{
+    box-shadow: none !important;
+}

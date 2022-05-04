@@ -1,0 +1,7 @@
+mutation AdminCreateFeedback($feedbackInput:FeedbackInput!){
+    adminCreateFeedback(feedbackInput:$feedbackInput){
+        code
+        success
+        message
+    }
+}

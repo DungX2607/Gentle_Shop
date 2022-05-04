@@ -1,0 +1,16 @@
+query AdminGetProductKinds{
+  adminGetProductKinds{
+    code
+    success
+    message
+    kinds{
+      id
+      name
+     
+    }
+    classes{
+      id
+      name
+    }
+  }
+}

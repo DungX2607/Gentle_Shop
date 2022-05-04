@@ -1,0 +1,13 @@
+query AdminDashboard{
+  dashboard{
+    code
+    success
+    takeMoneyField
+    cancel
+    confirmWaiting
+    confirmed
+    packed
+    delivering
+    commentNoFeedback
+  }
+}

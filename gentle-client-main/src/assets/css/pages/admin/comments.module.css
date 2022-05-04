@@ -1,0 +1,45 @@
+.container{
+    margin: 8px;
+}
+.heading{
+    border: 1px solid var(--border-color);
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 2rem;
+    text-align: center;
+}
+.item{
+    margin-top: 20px;
+    border: 1px solid var(--border-color);
+    padding: 12px 16px 0;
+
+
+}
+.userInfo{
+display: flex;
+align-items: center;
+
+}
+.userInfo img{
+    margin-right: 12px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.productName{
+    margin: 4px 0;
+    color: var(--grey-color);
+}
+.content{
+    margin-bottom: 20px;
+}
+.feedback{
+    border-top: 1px solid var(--border-color);
+    padding: 12px 0px 20px; 
+    display: flex;
+    
+}
+.feedback input{
+    border: 1px solid var(--grey-color) !important;
+    max-width: 96%;
+}

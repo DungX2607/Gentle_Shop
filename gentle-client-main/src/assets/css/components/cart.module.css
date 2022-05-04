@@ -1,0 +1,159 @@
+
+.userControlIcon {
+    color: black;
+    cursor: pointer;
+    margin: 0 20px;
+    font-size: 1.4rem;
+  }
+.modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.modalOverlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.3);
+}
+.modalBody{
+    width: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    background-color: white;
+    padding: 40px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header h2{
+    font-size: 1.4rem;
+}
+.headerIconClose{
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+.body{
+    margin-top: 40px;
+}
+.list{
+    padding: 8px;
+    display: flex;
+    padding-bottom: 20px;
+    border-bottom: 1px dotted var(--grey-color);
+}
+.list:last-child{
+    border-bottom: 2px solid black;
+}
+
+
+.list img{
+    height: auto;
+    width: 100px;
+}
+.itemInfo{
+    margin-left: 8px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.itemInfo h3{
+    max-width: 200px;
+    font-weight: 500;
+    font-size: 1rem;
+}
+.itemInfo h4{
+    color: var(--grey-color);
+    font-weight: 200;
+}
+.amount{
+    margin-top: 4px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   
+}
+.itemInfo span{
+    margin: 0 8px;
+    color: black;
+    font-weight: 500;
+    font-size: 1rem;
+    padding: 1px 5px;
+    background-color: var(--blur-color);
+}
+.itemDeleteIcon{
+    cursor: pointer;
+    margin-left: 20px;
+    font-size: 1rem;
+}
+.iconUpDownAmount{
+    cursor: pointer;
+    text-align: center;
+    font-size: 1.6rem;
+}
+.footer{
+
+}
+.footerTotal{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.footerTotal p{
+    width: 100px;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.6rem;
+    margin-left: 8px;
+}
+.footer h1{
+    line-height: 1.6rem;
+    font-weight: 500;
+    font-size: 1rem;
+    text-align: end;
+}
+.footerBtn{
+    margin-top: 40px;
+    display: flex;
+}
+.footerBtn button{
+    padding: 8px 40px;
+    margin: auto;
+}
+
+
+/* Empty */
+.cartEmptyContainer{
+   margin-top: 20%;
+   text-align: center;
+  
+}
+.cartEmptyContainer img{
+    width: 100%;
+    height: auto;
+}
+.cartEmptyContainer h3{
+    letter-spacing: 1px;
+    font-size: 1.4rem;
+    color: var( --brand-text-color);
+}
+.numberCountCartItem {
+    cursor: pointer;
+    font-size: 0.8rem;
+  
+    color: white;
+    position: absolute;
+    width: 20px;
+    text-align: center;
+    height: 20px;
+    border-radius: 50%;
+    background-color: red;
+    top: -33%;
+    right: -70%;
+  }

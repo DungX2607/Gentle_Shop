@@ -1,0 +1,41 @@
+.moneyInfoContainer{
+    margin: 0 8px;
+}
+.heading{
+    border: 1px solid var(--border-color);
+    padding: 12px;
+    font-size: 1.4rem;
+    text-align: center;
+    margin: 0 8px;
+}
+.body{
+    padding: 12px;
+    margin: 20px 8px 0;
+    border: 1px solid var(--border-color);
+}
+.input{
+    
+    margin: 8px 0;
+    border: 1px solid var(--grey-color) !important;
+}
+.input:focus{
+    box-shadow: none !important;
+}
+.tableInfoContainer{
+
+}
+.table{
+    margin-top: 20px;
+    border: 1px solid var(--border-color);
+}
+.table th{
+    background-color: var(--blur-color);
+}
+.btnLogout{
+    margin-top: 28px;
+    text-align: center;
+    
+}
+.btnLogout button{
+    width: 20%;
+}

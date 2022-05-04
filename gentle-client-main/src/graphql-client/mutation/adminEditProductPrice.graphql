@@ -1,0 +1,13 @@
+mutation AdminEditProductPrice($priceId:Float!,$priceChanging:Float!){
+    adminEditProductPrice(priceId:$priceId,priceChanging:$priceChanging){
+        code
+        success
+        message
+        price{
+            id
+            type
+            price
+            status
+        }
+    }
+}

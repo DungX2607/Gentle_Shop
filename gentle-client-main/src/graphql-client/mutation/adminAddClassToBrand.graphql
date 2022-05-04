@@ -1,0 +1,7 @@
+mutation AdminAddClassToBrand($brandId:Float!,$classId:Float!){
+    adminAddClassToBrand(brandId:$brandId,classId:$classId){
+        code
+        success
+        message
+    }
+}

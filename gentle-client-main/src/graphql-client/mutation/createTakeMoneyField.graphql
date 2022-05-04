@@ -1,0 +1,7 @@
+mutation TakeMoney($field:TakeMoneyFieldInput!){
+  createTakeMoneyField(field:$field){
+    code
+    success
+    message
+  }
+}

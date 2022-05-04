@@ -1,0 +1,13 @@
+mutation AdminCreateOrEditPrice($priceInput:PriceInput!,$priceId:Float!,$productId:Float!){
+    adminCreateOrEditPrice(priceInput:$priceInput,priceId:$priceId,productId:$productId){
+        code
+        success
+        message
+        price{
+            id
+            type
+            status
+            price
+        }
+    }
+}

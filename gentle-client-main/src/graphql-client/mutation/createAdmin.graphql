@@ -1,0 +1,8 @@
+mutation CreateAdmin($adminId:String!){
+  createAdmin(adminId:$adminId){
+    code
+    success
+    message
+    token
+  }
+}

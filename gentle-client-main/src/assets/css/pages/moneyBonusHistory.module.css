@@ -1,0 +1,113 @@
+
+.container{
+    margin: 0 8px;
+}
+.heading{
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 1.2rem;
+    padding: 8px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.list{
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.listTakeMoney{
+    margin-top: 8px;
+    width: 100%;
+}
+
+.table , .table tr,.table th,.table td{
+    border: 1px solid black;
+    padding: 8px 24px;
+}
+.row:hover{
+background-color: var(--blur-color);
+}
+
+.item{
+    width: 100%;
+    margin-top: 8px;
+    border: 1px solid var(--green-bg);
+}
+.textSample{
+    padding: 8px;
+   
+    border-bottom: 1px solid var(--green-bg);
+}
+.lastTextSample{
+    margin-bottom: 0;
+    border-bottom:none ;
+}
+.tableHeader{
+    background-color: var(--border-color);
+    padding: 8px;
+    font-family: "Oswald";
+}
+
+
+.userSelect {
+    width: 100%;
+    margin: 20px 0;
+    padding: 8px;
+    cursor: pointer;
+    border: 1px solid var(--border-color) !important;
+  }
+
+  /* TakeMoney */
+  .takeMoneyItem{
+      margin-top: 40px;
+      border: 1px solid var(--border-color);
+
+  }
+  .seperateUserInfo{
+     
+      padding: 10px 20px;
+  }
+  .userInfo{
+      margin-top: 20px;
+  }
+
+  .money{
+      color: green;
+  }
+  .textUserData{
+      margin-bottom: 8px;
+      margin-left: 4px;
+      font-weight: 500;
+      font-family: "Roboto";
+      text-transform: uppercase;
+  }
+  .control{
+      display: flex;
+      align-items: center;
+      
+  }
+  .textEnd{
+      justify-content: flex-end;
+  }
+  .takeMoneyFieldHeader{
+      background-color: var(--blur-color);
+  }
+  .textCancelReason{
+      font-family:"Roboto" ;
+      color: red;
+      text-transform: uppercase;
+  }
+  .footer{
+      font-weight: 500;
+      font-size: 1.1rem;
+  }
+  .footer.green{
+      color: green;
+  }
+  .footer.red{
+    color: red;
+}

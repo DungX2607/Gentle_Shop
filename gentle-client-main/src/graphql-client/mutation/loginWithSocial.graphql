@@ -1,0 +1,14 @@
+mutation LoginWithSocials($authInput:AuthInput!){
+ 	loginWithsocial(authInput:$authInput){
+code
+    success
+    message
+    user{
+      userName
+      userAvatar
+      id
+      createdAt
+    }
+    token
+  }
+}

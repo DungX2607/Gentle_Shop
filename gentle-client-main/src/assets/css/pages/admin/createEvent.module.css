@@ -1,0 +1,21 @@
+.container{
+    margin: 8px;
+    padding: 12px;
+    border-radius: 2px;
+    border: 1px solid var(--border-color);
+}
+.container img{
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+    margin: 10px;
+}
+.container input,.container textarea{
+    margin: 24px 0;
+}
+.input{
+    margin: 20px 0;
+}
+.text{
+    font-size: 1.2rem;
+}

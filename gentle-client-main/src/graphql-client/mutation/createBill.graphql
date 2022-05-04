@@ -1,0 +1,8 @@
+mutation CreateBill($billInput:BillInput!){
+  createBill(billInput:$billInput){
+    code
+    success
+    message
+   
+  }
+}

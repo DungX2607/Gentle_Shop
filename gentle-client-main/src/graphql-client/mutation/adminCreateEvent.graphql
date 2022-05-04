@@ -1,0 +1,7 @@
+mutation AdminCreateEvent($input:MyEventInput!){
+    adminCreateEvent(input:$input){
+        code
+        success
+        message
+    }
+}

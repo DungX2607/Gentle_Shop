@@ -1,0 +1,48 @@
+.item{
+    padding: 12px;
+    margin: 0 8px 28px;
+    border: 1px solid var(--border-color);
+}
+.item h2{
+    text-align: center;
+    font-size: 1.2rem;
+}
+.controlContainer{
+    flex-wrap: wrap;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.btn{
+    margin-bottom: 12px;
+}
+.btnContainer{
+    position: relative;
+    text-align: left;
+}
+.btnContainer div{
+    position: absolute;
+    top: -22%;
+right: -5%;
+    padding: 3px 6px;
+   text-align: center;
+    background-color: red;
+    border-radius: 50%;
+    color: white;
+}
+.btnContainerLast{
+    position: relative;
+    text-align: left;
+}
+
+.btnContainerLast div{
+    position: absolute;
+    top: -29%;
+    left: 13%;
+    padding: 3px 6px;
+   text-align: center;
+    background-color: red;
+    border-radius: 50%;
+    color: white;
+}

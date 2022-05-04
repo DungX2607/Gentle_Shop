@@ -1,0 +1,14 @@
+query getEvents{
+  getEvents{
+    code
+    success
+    message
+    myEvents{
+      title
+      content
+      summary
+      thumbnail
+     
+    }
+  }
+}

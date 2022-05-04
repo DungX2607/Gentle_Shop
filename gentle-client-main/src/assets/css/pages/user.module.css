@@ -1,0 +1,217 @@
+.userInfoContainer {
+  margin: 0 8px;
+}
+.userInfo {
+  border: 1px solid var(--blur-color);
+  padding: 12px;
+
+ 
+}
+
+.userInfo img {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+}
+.userNameAndAvatar{
+  display: flex;
+  align-items: center;
+}
+.userName {
+ 
+  margin-left: 8px;
+  margin-top: 8px;
+  
+}
+/* Money */
+.accountContainer {
+  margin: 40px 0;
+  display: block;
+}
+.title{
+  margin-bottom: 4px;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+
+}
+.moneyInfo {
+  
+  padding: 8px ;
+  background-color: var(--blur-color);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.coppyIcon{
+  margin-right: 8px;
+  font-size: 1.2rem;
+  color: black;
+  opacity: 0.6;
+  padding: 4px;
+  background-color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.coppyIcon:hover{
+  opacity: 1;
+}
+.moneyNumber {
+  font-size: 1rem;
+  font-family: "Oswald";
+
+}
+.btnTakeMoney {
+  text-transform: uppercase;
+  border-radius: 4px !important;
+  padding: 4px 12px;
+}
+.btnLogOut {
+  width: 100%;
+  margin: 40px 0;
+  text-align: center;
+}
+.btnLogOut button {
+  width: 30%;
+}
+/* userOrder */
+.userOrderContainer {
+  margin: 0 8px 40px;
+}
+.heading {
+  text-transform: uppercase;
+  text-align: center;
+  background-color: var(--blur-color);
+  padding: 8px 0;
+  font-size: 1.2rem;
+}
+.userOrderHeader {
+  max-width: 100%;
+  padding: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  overflow-x: auto;
+}
+
+.userOrderBody {
+ 
+
+  border: 1px solid var(--border-color);
+}
+/* userNotify */
+.userNotifyContainer {
+  margin: 0 8px 40px;
+}
+
+.userSelect {
+  cursor: pointer;
+  border: 1px solid var(--border-color) !important;
+}
+.userSelect:focus {
+  /* border: 1px solid black !important; */
+}
+.userOrderList {
+  max-height: 500px;
+  overflow-y: auto;
+}
+.userOrderItem {
+  cursor: default;
+  padding: 20px;
+  border-top: 1px dotted var(--border-color);
+}
+.userOrderItem:hover {
+  border: 1px solid black;
+}
+
+.userOrderItemHeader {
+  display: flex;
+  justify-content: space-between;
+  
+}
+.orderInfo {
+  max-width: 50%;
+}
+.productDescription {
+  
+}
+.productDescription img {
+  width: 68px;
+  height: 68px;
+}
+.productName {
+ 
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+.productName h3 {
+  max-width: 100%;
+  white-space: nowrap;
+
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.productName h4 {
+  font-weight: 300;
+  color: var(--grey-color);
+}
+
+.paymentDown {
+  font-weight: 300;
+  color: green;
+}
+.cancelControl {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.cancelControl button {
+}
+
+.writeCommentContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.writeCommentContainer h4 {
+  font-weight: 300;
+  color: var(--grey-color);
+}
+.editIcon {
+  margin-top: 20px;
+  font-size: 1.6rem;
+  cursor: pointer;
+}
+.viewIcon{
+  cursor: pointer;
+  font-size: 1.4rem;
+  color: var(--grey-color);
+  margin-left: 20px;
+}
+.toEvent{
+  text-transform: lowercase;
+  margin-left: 4px;
+  text-decoration: underline;
+  cursor: pointer;
+  color: var(--footer-text-color);
+}
+
+.historyText{
+  width: 30%;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  margin-top: 4px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  color: var(--text-color);
+  transition: 0.2s all ease;
+  cursor: pointer;
+  text-decoration:underline;
+}
+.historyText:hover{
+  transform: translateX(4px);
+}

@@ -1,0 +1,71 @@
+.container{
+    margin: 0 8px;
+
+}
+
+
+.body{
+  
+    margin-top: 8px;
+}
+.title{
+    color: var(--text-color);
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.createdAt{
+    margin-left: 8px;
+    font-size: 0.9rem;
+    color: var(--grey-color);
+    font-weight: 200;
+    margin-bottom: 40px;
+}
+
+.contentContainer{
+    margin:  0 ;
+   
+}
+.contentHeading{
+    padding: 8px 0;
+    
+    font-size: 1.2rem;
+    color: black;
+
+}
+.contentBody{
+    margin-top: 10px;
+    border: 1px solid var(--blur-color);
+    padding: 20px;
+}
+
+.content{
+
+}
+.footer{
+    margin-top: 60px;
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: "Roboto";
+}
+.instructionImageContainer{
+    margin-top: 20px;
+ 
+    margin-bottom: 30px;
+}
+.imageContainer{
+  
+}
+.textSample{
+    margin-bottom: 8px;
+    text-transform: uppercase;
+}
+.imageItem{
+   
+    cursor: pointer;
+    width: 100%;
+   height: auto;
+    border-radius: 8px;
+  
+    border: 1px solid var(--blur-color);
+}

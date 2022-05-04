@@ -1,0 +1,352 @@
+.productIdDistance{
+    background-color: white;
+}
+.wrapper{
+    margin: 8px 8px 0;
+    border: 1px solid var(--blur-color);
+    padding: 8px;
+    padding-bottom: 40px;
+}
+.bgProductRedirect{
+    background-color: var(--blur-color);
+}
+.productNameAndBrand{
+    margin: 0 8px;
+    
+    padding: 12px 0;
+}
+.productName{
+    font-size: 1.4rem;
+
+}
+.component{
+    margin-top: 12px;
+    font-size: 0.9rem;
+}
+.component p{
+    
+    
+    color: var(--brand-text-color);
+}
+.brandText{
+  
+    text-transform: uppercase;
+    margin-left: 4px;
+    font-family: "Roboto";
+    font-weight: 500;
+    color: var(--brand-text-color);
+}
+.redirectContainer{
+    display: flex;
+    align-items: center;
+    color: var(--text-color);
+    font-size: 0.95rem;
+}
+.redirectName{
+    text-transform: uppercase;
+   
+    margin-right: 2px;
+  cursor: pointer;
+  opacity: 0.7;
+}
+.redirectName:hover{
+    opacity: 1;
+    text-decoration: underline;
+}
+.redirectIcon{
+    margin-right: 2px;
+    font-size: 0.9rem;
+    color: var(--text-color);
+    opacity: 0.7;
+}
+
+/* Image about product */
+.imgContainer{
+
+}
+.imgContainer img{
+    cursor: pointer;
+    height: auto;
+    
+}
+.imgOther{
+    
+    margin-top:20px;
+}
+.imgOther img{
+    cursor: pointer;
+    margin-bottom: 12px;
+    padding: 4px;
+    border-radius: 2px;
+    border: 1px solid var(--blur-color);
+}
+.introContainer{
+    border-radius: 2px;
+   box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    margin: 20px 0 0;
+}
+.introContainer h4{
+    background-color:var(--border-color);
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 8px 0;
+}
+.introContainer p{
+    
+    padding: 8px 12px;
+    border-bottom: 1px solid var(--border-color);
+}
+/* Info about product */
+.productControlContainer{
+    margin-top: 20px;
+}
+
+/* Type product */
+.typeContainer{
+   
+}
+.priceTextheader{
+    margin-bottom: 6px;
+    color: var( --brand-text-color);
+}
+.typeItem{
+   
+    padding: 4px 0;
+    border: 1px solid var(--grey-color);
+    text-align: center;
+    border-radius: 2px;
+    position: relative;
+    color: var(--grey-color);
+    transition: all 0.15s;
+}
+.inputType{
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    opacity: 0;
+}
+.inputType:checked + .typeItem{
+    color: black;
+    border-radius: 2px;
+    
+    border: 1px solid black;
+    box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset, rgba(0, 0, 0, 0.9) 0px 0px 0px 1px;
+}
+.type{
+    font-weight: 200;
+}
+/* Button  and Price Control*/
+
+.priceControl{
+
+margin-top: 20px;
+
+}
+.amountControl{
+  
+   
+    border: 1px solid var(--grey-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+   
+}
+.amountControl p{
+    padding: 4px 14px;
+    user-select: none;
+    font-size: 1rem;
+    border: 1px solid var(--grey-color);
+    border-top:none;
+    border-bottom: none;
+}
+
+.totalPrice{
+    margin: 14px 0;
+    color: black;
+    padding: 8px 0;
+    font-size: 1.1rem;
+    justify-content: space-between;
+    height: 100%;
+    font-weight: 500;
+    font-size: 1.4rem;
+    font-family: "Roboto";
+    border-top: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--border-color);
+    
+   
+}
+.totalPriceIcon{
+    margin-left: 12px;
+    color: #38A169;
+}
+
+
+
+.buttonControl{
+    margin-top: 40px;
+}
+
+.buttonControl button{
+    user-select: none;
+ width: 100%;
+}
+/* Preview */
+.reviewContainer{
+    
+    margin-top: 40px;
+    margin-left: 8px;
+    margin-right: 8px;
+    border: 1px solid var(--border-color);
+}
+
+.reviewContainer p{
+   
+    padding: 8px 16px;
+    color: var(--text-color);
+}
+
+.icon{
+    text-align: center;
+    padding: 4px 8px;
+    cursor: pointer;
+    border: 2px solid black;
+    color: black;
+    transition: all 0.4s ease;
+  }
+  .icon:hover{
+    background-color: black;
+    color: white;
+  }
+
+  /* Comment */
+  .commentContainer{
+    margin-top: 60px;
+    
+}
+
+.commentHeader{
+    border: 1px solid var(--border-color);
+    margin: 0;
+    padding: 8px 16px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    background-color: var(--blur-color);
+}
+.review{
+    margin: 0 8px;
+}
+
+
+
+.commentItem{
+    margin: 0 8px;
+ 
+    
+    border: 1px solid var(--border-color);
+    border-top: none;
+    padding: 12px 16px;
+}
+.userInfo h2:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.userInfo{
+    align-items: center;
+display: flex;
+   
+}
+.userNameContainer{
+    display: flex;
+    align-items: center;
+}
+.paidChecked{
+    
+    font-weight: 300;
+    margin-left: 24px;
+}
+.paidCheckedIcon{
+    margin-left: 5px;
+    color: #38A169;
+
+}
+
+.userInfo img{
+    width: 36px;
+    height: 36px;
+    
+    border-radius: 50%;
+}
+
+.userInfo h2{
+    font-size: 1rem;
+    margin-left: 8px;
+}
+.ratingContainer
+{
+
+}
+.ratingIcon{
+    font-size: 0.9rem;
+    margin-right: 2px;
+}
+.imageComment{
+
+    display: flex;
+    align-items: center;
+
+}
+.imageComment img{
+    cursor: pointer;
+    margin-top: 8px;
+    border-radius: 6px;
+    border: 1px solid var(--blur-color);
+    width: 120px;
+    height: 120px;
+ 
+    margin-right: 12px;
+}
+
+.commentContent{
+    margin-top: 4px;
+    font-size: 1rem;
+    font-weight:400;
+    font-family: "Roboto";
+    color: var(--text-color);
+}
+/* Feedback */
+.feedbackContainer{
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 8px 0 0 8px;
+    border-left: 3px solid var(--border-color);
+    border-top: 1px dotted var(--border-color);
+}
+.adminInfo{
+    display: flex;
+    align-items: center;
+}
+.adminName{
+    padding: 4px;
+}
+.adminInfo img{
+    margin-right: 12px;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+.adminFeedbackContent{
+    margin-top: 12px;
+    margin-left: 4px;
+}
+.commentFooter{
+    text-align: center;
+    margin-top: 40px;
+}

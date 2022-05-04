@@ -1,0 +1,49 @@
+.heading{
+    margin-top: 20px;
+    margin-left: 8px;
+    font-size: 1.3rem;
+}
+.heading.hightlight{
+    color: red;
+}
+.billItem table,.billItem td,.billItem th{
+    border: 1px solid black;
+    padding: 12px;
+}
+
+.billItem{
+    border-radius: 10px;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+    margin: 32px 8px;
+    padding: 12px;
+  
+}
+.component{
+  
+    margin: 16px 0;
+}
+.input{
+    margin-top: 80px;
+}
+.controllContainer{
+    
+    
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+}
+.controllContainer button{
+    margin-top: 140px;
+}
+.textEnd{
+    text-align: end;
+}
+.btnControlContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.table{
+    margin-bottom: 60px;
+}
+

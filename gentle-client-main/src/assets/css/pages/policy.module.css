@@ -1,0 +1,40 @@
+.bgProductRedirect{
+    background-color: var(--blur-color);
+}
+.productNameAndBrand{
+    margin: 0 8px;
+    
+    padding: 12px 0;
+}
+.redirectContainer{
+    display: flex;
+    align-items: center;
+    color: var(--text-color);
+    font-size: 0.95rem;
+}
+.redirectName{
+    text-transform: uppercase;
+   
+    margin-right: 2px;
+ 
+  opacity: 0.7;
+}
+.home{
+    cursor: pointer;
+
+}
+.home:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+
+.redirectIcon{
+    margin-right: 2px;
+    font-size: 0.9rem;
+    color: var(--text-color);
+    opacity: 0.7;
+}
+.body{
+    margin: 0 8px;
+}

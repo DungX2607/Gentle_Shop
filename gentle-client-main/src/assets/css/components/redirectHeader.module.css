@@ -1,0 +1,37 @@
+.header{
+    padding: 4px 0;
+    margin: 0 8px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.redirectBackground{
+    background-color: var(--blur-color);
+}
+.item{
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    padding: 6px 0;
+    margin-right: 6px;
+    color: var(--text-color);
+    font-size: 0.95rem;
+}
+.redirectName{
+    text-transform: uppercase;
+   
+    
+ 
+  opacity: 0.7;
+}
+.redirectName:hover{
+    color: black;
+    text-decoration: underline;
+}
+.redirectIcon{
+   margin-right: 2px;
+    font-size: 0.9rem;
+    color: var(--text-color);
+    opacity: 0.7;
+}

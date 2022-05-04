@@ -1,0 +1,23 @@
+query GetWebData($localBillProducts: [BillProductInput!]!) {
+  getWebData(localBillProducts: $localBillProducts) {
+    code
+    success
+    message
+    products {
+      productName
+      productType
+      productPrice
+      productAmount
+      productThumbnail
+      priceIdForLocal
+    }
+    kinds {
+      id
+      name
+    }
+    brands {
+      id
+      brandName
+    }
+  }
+}

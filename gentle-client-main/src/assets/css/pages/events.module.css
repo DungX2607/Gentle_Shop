@@ -1,0 +1,45 @@
+.container{
+    margin: 8px;
+    margin-top: 20px;
+    margin-left: 18px;
+}
+.eventItem{
+    margin-bottom: 28px;
+  border-radius: 2px;
+   border: 1px solid var(--blur-color);
+    
+}
+.eventItem:hover{
+    background-color: var(--blur-color);
+}
+.eventItem img{
+    padding: 12px;
+    border-radius: 2px;
+    
+    background-color: var(--blur-color);
+   
+   
+}
+.itemInfo{
+    cursor: pointer;
+    height: 100%;
+    padding: 12px;
+    padding-right: 22px;
+flex: 1;
+    display: flex;
+    align-items: flex-start;
+   
+    justify-content: space-between;
+}
+.itemInfo h2{
+    flex: 1;
+}
+.summary{
+    font-size: 1rem;
+    color: var(--text-color);
+}
+.title{
+    text-transform: uppercase;
+    font-size: 1.1rem;
+}
+

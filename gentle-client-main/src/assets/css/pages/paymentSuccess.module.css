@@ -1,0 +1,28 @@
+.paymentSuccessContainer{
+    margin: 8px 20px ;
+    padding: 20px;
+    border: 1px solid black;
+    text-align: center;
+}
+.paymentSuccessContainer h1{
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.backContainer{
+ 
+
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    padding: 4px 16px;
+}
+.backContainer h2{
+    font-size: 1.2rem;
+    margin-left: 8px;
+}
+.backContainer:hover h2{
+    text-decoration: underline;
+}
+

@@ -1,0 +1,123 @@
+.commentContainer{
+    margin-top: 40px;
+    
+}
+
+.commentHeader{
+    border: 1px solid var(--border-color);
+    margin: 0 8px;
+    padding: 8px 16px;
+    display: flex;
+    align-items: center;
+}
+.commentHeader h1{
+    font-size: 1.2rem;
+}
+.commentHeader button{
+    margin-left: 40px;
+}
+
+
+.commentItem{
+    margin: 0 8px;
+    margin-top: 12px;
+    border-top: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--border-color);
+    padding: 12px 16px;
+}
+.userInfo h2:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.userInfo{
+    align-items: center;
+display: flex;
+   
+}
+.userNameContainer{
+    display: flex;
+    align-items: center;
+}
+.paidChecked{
+    
+    font-weight: 300;
+    margin-left: 24px;
+}
+.paidCheckedIcon{
+    margin-left: 5px;
+    color: #38A169;
+
+}
+
+.userInfo img{
+    width: 36px;
+    height: 36px;
+    
+    border-radius: 50%;
+}
+
+.userInfo h2{
+    font-size: 1rem;
+    margin-left: 8px;
+}
+.ratingContainer
+{
+
+}
+.ratingIcon{
+    font-size: 0.9rem;
+    margin-right: 2px;
+}
+.imageComment{
+
+    display: flex;
+    align-items: center;
+
+}
+.imageComment img{
+    cursor: pointer;
+    margin-top: 8px;
+    border-radius: 6px;
+  
+    width: 80px;
+    height: 80px;
+ 
+    margin-right: 12px;
+}
+
+.commentContent{
+    margin-top: 4px;
+    font-size: 1rem;
+    font-weight:400;
+    font-family: "Roboto";
+    color: var(--text-color);
+}
+/* Feedback */
+.feedbackContainer{
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 8px 0 0 8px;
+    border-left: 3px solid var(--border-color);
+    border-top: 1px dotted var(--border-color);
+}
+.adminInfo{
+    display: flex;
+    align-items: center;
+}
+.adminName{
+    padding: 4px;
+}
+.adminInfo img{
+    margin-right: 12px;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+.adminFeedbackContent{
+    margin-top: 12px;
+    margin-left: 4px;
+}
+.commentFooter{
+    text-align: center;
+    margin-top: 40px;
+}

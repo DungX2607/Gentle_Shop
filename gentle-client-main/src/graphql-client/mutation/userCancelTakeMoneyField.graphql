@@ -1,0 +1,7 @@
+mutation UserCancelTakeMoneyField($takeMoneyFieldId:Float!){
+    userCancelTakeMoneyField(takeMoneyFieldId:$takeMoneyFieldId){
+        code
+        success
+        message
+    }
+}

@@ -1,0 +1,69 @@
+.loginEvent h2 {
+  font-size: 1rem;
+}
+.loginEvent:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+.body{
+  border: 1px solid var(--boder-color);
+  padding: 10px;
+}
+.loginContainer {
+  border-radius: 4px;
+  padding: 12px;
+  background-color: white;
+}
+.userControlIcon {
+  color: black;
+  cursor: pointer;
+  margin: 0 20px;
+  font-size: 1.4rem;
+}
+.loginContainer h1 {
+  background-color: var(--border-color);
+  color: black;
+  font-size: 1.4rem;
+  padding: 8px 0;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.textIntro {
+  margin: 8px 0 20px;
+  font-size: 0.85rem;
+}
+.loginButtonContainer {
+  cursor: pointer;
+  color: white;
+  padding: 8px;
+  width: 100%;
+  border-radius: 2px;
+  margin: 24px 0;
+  opacity: 0.85;
+  transition: all 0.2s;
+}
+.loginButtonContainer:hover {
+  opacity: 1;
+}
+.loginButtonContainer.loginWithFacebook {
+  background-color: var(--facebook-bg);
+}
+.loginButtonContainer.loginWithGoogle {
+  background-color: var(--google-bg);
+}
+.iconLogin {
+  margin-right: 16px;
+  font-size: 1rem;
+  color: white;
+}
+.textRule {
+  margin-top: 60px;
+  
+
+}
+.linkRule {
+  cursor: pointer;
+  text-decoration: underline;
+  color: var(--facebook-bg);
+}

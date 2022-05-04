@@ -1,0 +1,29 @@
+query getComments($skip:Float!,$productId:Float!){
+  getComments(skip:$skip,productId:$productId){
+    code
+    success
+    message
+    totalCount
+    cursor
+    hasMore
+    comments{
+      user{
+        userName
+        userAvatar
+      }
+      content
+      rating
+      imagesComment
+      createdAt
+      feedbacks{
+        admin{
+          adminName
+          avatar
+        }
+        content
+        createdAt
+      }
+
+    }
+  }
+}

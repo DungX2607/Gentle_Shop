@@ -1,0 +1,7 @@
+mutation CreateComments($commentInput:CommentInput!){
+  createComments(commentInput:$commentInput){
+    code
+    success
+    message
+  }
+}

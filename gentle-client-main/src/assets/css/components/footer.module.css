@@ -1,0 +1,103 @@
+.footerBg{
+    background-color: black;
+}
+.footerContainer{
+    margin: 0 8px;
+    padding: 34px 0 68px;
+}
+
+/* Left */
+.left{
+    margin-top:34px ;
+}
+.imageIntro{
+
+}
+.textIntro{
+color: var(--footer-text-color);
+line-height: 1.7rem;
+font-family: "Oswald";
+font-weight: 300;
+}
+.shopInfo{
+margin-top: 16px;
+}
+.shopInfo p{
+    text-transform: uppercase;
+    margin-top: 4px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+.shopInfo span{
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+   
+    color: var(--footer-text-color);
+}
+.socialIconContainer{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+.gmail{
+    text-transform: lowercase;
+}
+.socialIconContainer{
+    margin-top: 20px;
+}
+.socialIcon{
+    cursor: pointer;
+    margin-right: 20px;
+    color: white;
+    border: 2px solid white;
+    padding: 12px;
+    font-size: 1rem;
+    transition: 0.4s all;
+}
+.socialIcon:hover{
+    background-color: white;
+    color: black;
+}
+.socialIcon.facebookIcon{
+    padding: 12px 15px;
+}
+/* Center */
+.center{
+    margin-top: 34px;
+  
+}
+.heading{
+    font-size: 1.2rem;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+.policyBody{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.policyItem{
+  
+    cursor: pointer;
+    font-family: "Roboto";
+    margin-top: 18px;
+    color: var(--footer-text-color);
+    transition: 0.4s all;
+}
+.policyIcon{
+    margin-right: 2px;
+}
+.policyItem:hover{
+    color: white;
+    transform: translateX(10%);
+}
+/* Right */
+.right{
+    margin-top: 34px;
+  text-align: center;
+}
+

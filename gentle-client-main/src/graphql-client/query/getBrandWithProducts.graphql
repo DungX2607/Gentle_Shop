@@ -1,0 +1,35 @@
+query GetBrandWithProducts($paginationOptions:PaginationOptionsInput!) {
+  getBrandWithProducts(paginationOptions:$paginationOptions) {
+    code
+    success
+    message
+    pageSize
+    totalCount
+    brandWithProducts {
+      id
+      brandName
+      thumbnail
+      description
+      kind{
+        id
+        name
+      }
+      productClasses{
+        id
+        name
+      }
+      products{
+      id
+      productName
+      priceToDisplay
+      commentCount
+      averageRating
+      sales
+      thumbnail
+      class{
+        name
+      }
+    }
+    }
+  }
+}

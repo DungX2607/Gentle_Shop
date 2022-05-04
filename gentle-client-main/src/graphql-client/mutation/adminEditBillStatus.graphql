@@ -1,0 +1,7 @@
+mutation AdminEditBillStatus($billId:Float!,$status:String!,$paymentDown:Float!){
+    adminEditBillStatus(billId:$billId,status:$status,paymentDown:$paymentDown){
+        code
+        success
+        message
+    }
+}

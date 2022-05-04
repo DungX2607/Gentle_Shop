@@ -1,0 +1,52 @@
+
+.heading{
+    border: 1px solid var(--border-color);
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 2rem;
+    text-align: center;
+}
+.item{
+    margin: 8px;
+    margin-top: 40px;
+    padding: 8px;
+    background-color: var(--admin-bg-item);
+}
+.fieldId{
+
+    margin-left: 8px;
+    font-size: 1.4rem;
+}
+.component{
+    margin-bottom:12px ;
+}
+.currentMoney{
+    font-size: 1.3rem;
+    color: green;
+}
+.controlContainer{
+    display: flex;
+  
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+    background-color: white;
+    margin-top: 12px;
+    border-radius: 4px;
+
+}
+.cancelContainer{
+  
+   
+}
+.controlContainer img{
+    height: 200px;
+    width: 200px;
+border-radius: 4px;
+margin-bottom: 20px;
+}
+.controlContainer button{
+
+    display: block;
+    margin-top: 36px;
+}

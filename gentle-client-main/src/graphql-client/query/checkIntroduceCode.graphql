@@ -1,0 +1,8 @@
+query CheckIntroduceCode($introduceCode:Float!,$totalPrice:Float!){
+  checkIntroduceCode(introduceCode:$introduceCode,totalPrice:$totalPrice){
+    code
+    success
+    message
+    introducePrice
+  }
+}

@@ -1,0 +1,14 @@
+query GetProductsBySearchInput($value:String!){
+  getProductsBySearchInput(value:$value){
+    code
+    success
+    message
+    products{
+    id
+      productName
+      thumbnail
+      minPrice
+      maxPrice
+    }
+  }
+}

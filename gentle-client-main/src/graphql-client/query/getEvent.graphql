@@ -1,0 +1,14 @@
+query GetEvent($title:String!){
+    getEvent(title:$title){
+        code
+        success
+        message
+        myEvent{
+            title
+            thumbnail
+            content
+ instructionImages
+            createdAt
+        }
+    }
+}

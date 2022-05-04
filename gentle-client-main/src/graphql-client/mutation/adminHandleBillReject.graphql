@@ -1,0 +1,7 @@
+mutation AdminHandleBillReject($billId:Float!){
+  adminHandleBillReject(billId:$billId){
+    code
+    success
+    message
+  }
+}

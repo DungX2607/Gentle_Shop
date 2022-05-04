@@ -1,0 +1,128 @@
+/* Search */
+
+.userControlIcon.searchIcon{
+    font-size:1rem;
+  }
+  /* Desktop */
+  .searchBg {
+    
+    padding: 6px 0;
+    background-color: var(--search-bg);
+  }
+  .searchContainer {
+    /* display: flex;
+    align-items: center;
+    height: 40px;
+  
+    
+    margin: 0 8px; */
+   margin: 0 8px;
+    background-color: white;
+  }
+  .searchTypeContainer{
+    background-color: #f1f1f1;
+    border-right: 1px solid #CCCCCC;
+    text-transform: uppercase;
+  font-size: 0.9rem;
+    height: 100%;
+    display: flex;
+    align-items: center;
+   justify-content: space-around;
+    
+  }
+  .searchTypeContainer p{
+   
+  }
+  .triangleDownIcon{
+   
+    font-size: 0.7rem;
+  }
+  .searchInputContainer{
+    height: 100%;
+    
+    flex: 1;
+    position: relative;;
+  }
+  .searchInputContainer input {
+    
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 6px;
+  }
+  .searchInputContainer input::placeholder{
+    font-style: italic;
+    color: #CCCCCC;
+  }
+  
+  .searchResultContainer{
+    margin: 0 2px;
+    border-radius: 8px;
+    left: -0.2%;
+    overflow-y: auto;
+    min-height: 100px;
+    max-height: 400px;
+    width: 100%;
+    z-index: 100;
+   
+  
+  
+   background-color: white;
+    position: absolute;
+     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;;
+    top:130%;
+  }
+  .searchProductList{
+  
+  }
+  .searchProductItem{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding: 12px;
+   
+  }
+  .searchProductItem img{
+    height: 60px;
+    width: 60px;
+ 
+    border-radius: 8px;
+  }
+  .searchProductInfo{
+  
+  margin-left: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  }
+  .searchProductInfo h3{
+    margin-bottom: 4px;
+    font-size: 1.1rem;
+  }
+  .searchProductInfo h4{
+    font-size: 0.9rem;
+    font-weight: 300;
+    
+  }
+  
+  
+  .searchProductItem:hover{
+    background-color: var(--blur-color);
+  }
+  .searchContainer button {
+  
+   
+  }
+  .btnSearch{
+      
+    background-color: var(--blur-color);
+    height: 100%;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    font-weight: 500;
+    font-family: "Oswald";
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  }

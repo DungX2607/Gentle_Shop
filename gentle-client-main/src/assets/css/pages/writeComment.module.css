@@ -1,0 +1,121 @@
+.heading{
+text-align: center;
+font-size: 1.6rem;
+padding: 4px 8px;
+background-color: var(--blur-color);
+margin-bottom: 40px;
+}
+.container{
+    margin: 40px 8px 0 ;
+}
+/* Bill Info */
+.billInfoContainer{
+    margin-bottom: 40px;
+}
+
+.billProductItem{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    text-align: center;
+    border-radius: 4px;
+    margin-top: 20px;
+    padding: 4px 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+/* Comment */
+.writeCommentContainer{
+  
+}
+.imgContainer{
+    margin-bottom: 40px;
+}
+.imgContainer h3{
+   text-align: center;
+}
+.imgContainer img{
+    height: max-content;
+}
+.ratingContainer{
+    display: flex;
+    align-items: center;
+}
+.ratingContainer h4{
+    margin-right: 20px;
+
+}
+.writeCommentControl{
+    margin-top:8px;
+    position: relative;
+}
+.writeCommentControl h2{
+   
+}
+.uploadImageText{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imageResult{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+.imageResultItem{
+   cursor: pointer;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+.imageResultItem img{
+    width: 120px;
+    height: 120px;
+    border-radius: 8px;
+  
+  
+}
+
+.writeCommentControl textarea{
+    width: 100%;
+    height: 140px;
+    padding: 8px 16px;
+    border: 1px solid black;
+    outline: none;
+}
+.writeCommentControl button{
+   width: 50%;
+}
+
+.inputFile{
+    cursor: pointer;
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   z-index: 1;
+   opacity: 0;
+}
+.imageUpload{
+    margin-top: 24px;
+    position: relative;
+}
+.imageUpload div{
+    border-radius: 4px;
+    text-align: center;
+    padding: 6px 0px;
+    background-color: black;
+    color: white;
+}
+.uploadImageNotice{
+    font-size: 0.9rem;
+    font-family: "Oswald";
+    color: var(--grey-color);
+    display: flex;
+   height: 100%;
+   
+    align-items: flex-end;
+}

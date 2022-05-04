@@ -1,0 +1,14 @@
+query GetKindsAndBrands{
+    getKindsAndBrands{
+        code
+        success
+        kinds{
+            id
+            name
+        }
+        brands{
+            id
+            brandName
+        }
+    }
+}

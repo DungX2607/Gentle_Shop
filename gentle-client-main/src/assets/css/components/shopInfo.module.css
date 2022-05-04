@@ -1,0 +1,104 @@
+.shopInfoContainer{
+    margin: 0 8px;
+    height: 500px;
+    border: 1px solid var(--border-color);
+}
+.heading{
+    background-color: var(--blur-color);
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 4px 0;
+    border-bottom: 1px solid var(--border-color);
+}
+.body{
+    padding: 12px;
+   
+}
+.createdAt{
+    margin: 12px 0;
+}
+.createdAt h2{
+    font-size: 1.2rem;
+
+}
+.totalProductPaid{
+    margin: 8px 0;
+}
+.userPaidContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.textSampleUserPaid{
+    text-align: center;
+    padding: 8px 0;
+    border-bottom: 1px solid var(--border-color);
+}
+.hideUserContainer{
+    padding: 8px;
+    display: flex;
+    align-items: center;
+
+}
+.hideUserContainer h4{
+    font-family: "Oswald";
+    color: var(--grey-color);
+    margin-right: 12px;
+}
+
+.checkBoxHideUser{
+    margin-right: 4px;
+    border: 0.5px solid var(--grey-color) 
+}
+.checkBoxHideUser:checked{
+    border: none;
+}
+.userList{
+   max-height: 280px;
+    border: 1px solid var(--border-color);
+    
+    overflow-y: scroll;
+}
+.userItem{
+   
+    border-top: 1px dotted var(--border-color);
+    cursor: pointer;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+}
+.userItem:hover{
+    background-color: var(--blur-color);
+}
+.userItem:hover h3{
+    text-decoration: underline;
+}
+.userItem img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.userItem h3{
+    margin-left: 8px;
+}
+.noPadding{
+    padding: 0 !important;
+}
+
+.tab{
+    border-radius: 2px !important;
+}
+.tab:focus{
+    box-shadow:  none !important;
+}
+.statistics{
+    height: 100%;
+}
+.statisticsFooter{
+    padding: 12px 6px 0;
+    text-align: center;
+}
+
+

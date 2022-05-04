@@ -1,0 +1,25 @@
+query AdminGetKindBrandClass {
+  adminGetKindBrandClass {
+    code
+    success
+    message
+    kinds {
+      id
+      name
+    }
+    classes {
+      id
+      name
+      kind {
+        id
+      }
+    }
+    brands{
+          id
+          brandName
+          kind{
+            id
+          }
+        }  
+  }
+}

@@ -1,0 +1,8 @@
+mutation AdminHanleBillCompleted($totalPrice:Float!,$billId:Float!){
+  adminHandleBillCompleted(totalPrice:$totalPrice,billId:$billId){
+    code
+    success
+    message
+   
+  }
+}

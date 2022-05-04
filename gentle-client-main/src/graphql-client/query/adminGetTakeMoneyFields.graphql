@@ -1,0 +1,18 @@
+query AdminGetTakeMoneyFields{
+  adminGetTakeMoneyFields{
+    code
+    success
+    message
+    fields{
+      id
+      accoutName
+      accountNumber
+      accountBankName
+      money
+      user{
+        moneyCount
+        id
+      }
+    }
+  }
+}

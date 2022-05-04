@@ -1,0 +1,7 @@
+mutation AdminCreateProductKind($name:String!){
+  adminCreateProductKind(name:$name){
+    code
+    success
+    message
+  }
+}
